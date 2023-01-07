@@ -1,0 +1,12 @@
+.header{
+    width:100vw;
+    background-color: rgb(114, 33, 114);
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-style: oblique;
+}
