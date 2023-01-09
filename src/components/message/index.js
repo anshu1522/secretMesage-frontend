@@ -20,7 +20,7 @@ function Messages() {
     // console.log(id,mess);
     try {
       const resp = await axiosInstance.put(
-        `http://localhost:8000/message/${id}`,
+        `https://secret-api-service.onrender.com/message/${id}`,
         { msg: mess }
       );
       // console.log(resp);

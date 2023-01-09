@@ -9,9 +9,10 @@ const ViewMsg = () => {
   useEffect(() => {
     const getMsg = async () => {
       var id = localStorage.getItem("myid");
+     
       try {
         const resp = await axiosInstance.get(
-          `http://localhost:8000/message/${id}`
+          `https://secret-api-service.onrender.com/message/${id}`
         );
         // console.log(resp);
         setAllMsg(resp.data.message);
